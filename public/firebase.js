@@ -56,7 +56,7 @@ async function uploadImage(){
       }
 
       if (files[i].size > 2097152) {
-        alert("File is too big!");
+        alert("File is too big! Max file size is 2MB");
         return;
       }
 
